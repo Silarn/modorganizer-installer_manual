@@ -183,7 +183,7 @@ void InstallDialog::updateProblems()
     m_ProblemLabel->setStyleSheet("color: darkGreen;");
   } else {
     m_ProblemLabel->setText(tr("No game data on top level"));
-    m_ProblemLabel->setToolTip(tr("There is no esp/esm file or asset directory (textures, meshes, interface, ...) "
+    m_ProblemLabel->setToolTip(tr("There is no esp/esm/esl file or asset directory (textures, meshes, interface, ...) "
                                   "on the top level."));
     m_ProblemLabel->setStyleSheet("color: red;");
   }
